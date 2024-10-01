@@ -154,7 +154,7 @@ const SearchBar = () => {
             </div>
 
             {/* Search Button */}
-            <button className='btn btn-secondary w-full md:w-auto flex items-center gap-2'>
+            <button className='btn bg-rose-500 w-full md:w-auto flex items-center gap-2'>
                 <FaSearch />
                 <span>Search</span>
             </button>
