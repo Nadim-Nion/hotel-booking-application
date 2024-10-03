@@ -1,20 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import HotelCard from '../HotelCard/HotelCard';
 
 const Hotels = () => {
+    const [hotels, setHotels] = useState([]);
+    useEffect(() => {
+        fetch('hotels.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                setHotels(data);
+            })
+    }, []);
+
     return (
-        <div className="card bg-base-100 w-96 shadow-xl">
-            <figure>
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-            </figure>
-            <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
-                </div>
-            </div>
+        <div className='grid md:grid-cols-3 sm:grid-cols-1 gap-4 w-full md:w-4/5 mx-auto my-8'>
+            {
+                hotels.map(hotel => <HotelCard
+                    key={hotel._id}
+                    hotel={hotel}
+                ></HotelCard>)
+            }
         </div>
     );
 };
