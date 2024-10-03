@@ -18,7 +18,7 @@ const Footer = () => {
                 <p>
                     Airbnb Ltd.
                     <br />
-                    Providing reliable tech since 1992
+                    Providing reliable Hotel Booking Services since 1992
                 </p>
             </aside>
             <nav>

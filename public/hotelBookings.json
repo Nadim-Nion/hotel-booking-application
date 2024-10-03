@@ -1,0 +1,200 @@
+[
+    {
+        "_id": "hotel12345",
+        "images": [
+            "https://example.com/images/hotel1_img1.jpg",
+            "https://example.com/images/hotel1_img2.jpg",
+            "https://example.com/images/hotel1_img3.jpg"
+        ],
+        "hotelName": "Sunset Bay Resort",
+        "hotelDestination": "Miami Beach, FL",
+        "shortDescription": "Experience luxury at Sunset Bay Resort with breathtaking ocean views, modern amenities, and exceptional service.",
+        "pricePerGuest": {
+            "adult": 150,
+            "child": 75,
+            "infant": 30
+        },
+        "bedroomNumber": 3,
+        "bathroomNumber": 2,
+        "bedsNumber": 4,
+        "checkIn": "2024-10-8",
+        "checkOut": "2024-10-15",
+        "category": "Beach"
+    },
+    {
+        "_id": "hotel67890",
+        "images": [
+            "https://example.com/images/hotel2_img1.jpg",
+            "https://example.com/images/hotel2_img2.jpg",
+            "https://example.com/images/hotel2_img3.jpg"
+        ],
+        "hotelName": "Mountain Escape Lodge",
+        "hotelDestination": "Aspen, CO",
+        "shortDescription": "Relax in the comfort of Mountain Escape Lodge with scenic mountain views, cozy interiors, and a peaceful environment.",
+        "pricePerGuest": {
+            "adult": 200,
+            "child": 100,
+            "infant": 40
+        },
+        "bedroomNumber": 4,
+        "bathroomNumber": 3,
+        "bedsNumber": 5,
+        "checkIn": "2024-12-20",
+        "checkOut": "2024-12-30",
+        "category": "Amazing view"
+    },
+    {
+        "_id": "hotel98765",
+        "images": [
+            "https://example.com/images/hotel3_img1.jpg",
+            "https://example.com/images/hotel3_img2.jpg",
+            "https://example.com/images/hotel3_img3.jpg"
+        ],
+        "hotelName": "Urban Retreat Hotel",
+        "hotelDestination": "New York, NY",
+        "shortDescription": "Stay at Urban Retreat Hotel to enjoy modern comforts, an ideal downtown location, and easy access to popular attractions.",
+        "pricePerGuest": {
+            "adult": 180,
+            "child": 90,
+            "infant": 35
+        },
+        "bedroomNumber": 2,
+        "bathroomNumber": 1,
+        "bedsNumber": 3,
+        "checkIn": "2024-11-01",
+        "checkOut": "Sold Out",
+        "category": "Icons"
+    },
+    {
+        "_id": "hotel24680",
+        "images": [
+            "https://example.com/images/hotel4_img1.jpg",
+            "https://example.com/images/hotel4_img2.jpg",
+            "https://example.com/images/hotel4_img3.jpg"
+        ],
+        "hotelName": "Coastal Paradise Villa",
+        "hotelDestination": "Malibu, CA",
+        "shortDescription": "Enjoy the serenity of Coastal Paradise Villa, with private beach access and luxury amenities perfect for a relaxing getaway.",
+        "pricePerGuest": {
+            "adult": 220,
+            "child": 110,
+            "infant": 50
+        },
+        "bedroomNumber": 3,
+        "bathroomNumber": 2,
+        "bedsNumber": 4,
+        "checkIn": "2024-09-15",
+        "checkOut": "2024-09-22",
+        "category": "Beach"
+    },
+    {
+        "_id": "hotel13579",
+        "images": [
+            "https://example.com/images/hotel5_img1.jpg",
+            "https://example.com/images/hotel5_img2.jpg",
+            "https://example.com/images/hotel5_img3.jpg"
+        ],
+        "hotelName": "Lakeview Serenity Cabin",
+        "hotelDestination": "Lake Tahoe, NV",
+        "shortDescription": "Escape to Lakeview Serenity Cabin for a peaceful retreat with beautiful lake views and cozy cabin vibes.",
+        "pricePerGuest": {
+            "adult": 170,
+            "child": 85,
+            "infant": 35
+        },
+        "bedroomNumber": 3,
+        "bathroomNumber": 2,
+        "bedsNumber": 4,
+        "checkIn": "2024-10-10",
+        "checkOut": "2024-10-18",
+        "category": "Amazing view"
+    },
+    {
+        "_id": "hotel11223",
+        "images": [
+            "https://example.com/images/hotel6_img1.jpg",
+            "https://example.com/images/hotel6_img2.jpg",
+            "https://example.com/images/hotel6_img3.jpg"
+        ],
+        "hotelName": "Downtown Iconic Suites",
+        "hotelDestination": "Los Angeles, CA",
+        "shortDescription": "Stay at Downtown Iconic Suites and explore the vibrant city of Los Angeles from an iconic location.",
+        "pricePerGuest": {
+            "adult": 160,
+            "child": 80,
+            "infant": 30
+        },
+        "bedroomNumber": 2,
+        "bathroomNumber": 1,
+        "bedsNumber": 3,
+        "checkIn": "2024-11-05",
+        "checkOut": "Sold Out",
+        "category": "Icons"
+    },
+    {
+        "_id": "hotel33445",
+        "images": [
+            "https://example.com/images/hotel7_img1.jpg",
+            "https://example.com/images/hotel7_img2.jpg",
+            "https://example.com/images/hotel7_img3.jpg"
+        ],
+        "hotelName": "Ocean Breeze Resort",
+        "hotelDestination": "Hawaii, HI",
+        "shortDescription": "Bask in the tropical paradise of Ocean Breeze Resort, with breathtaking beach views and luxurious accommodations.",
+        "pricePerGuest": {
+            "adult": 250,
+            "child": 125,
+            "infant": 50
+        },
+        "bedroomNumber": 4,
+        "bathroomNumber": 3,
+        "bedsNumber": 5,
+        "checkIn": "2024-10-20",
+        "checkOut": "2024-11-02",
+        "category": "Beach"
+    },
+    {
+        "_id": "hotel55667",
+        "images": [
+            "https://example.com/images/hotel8_img1.jpg",
+            "https://example.com/images/hotel8_img2.jpg",
+            "https://example.com/images/hotel8_img3.jpg"
+        ],
+        "hotelName": "Skyline View Penthouse",
+        "hotelDestination": "Chicago, IL",
+        "shortDescription": "Enjoy luxury living at Skyline View Penthouse with stunning cityscape views and modern amenities.",
+        "pricePerGuest": {
+            "adult": 210,
+            "child": 105,
+            "infant": 40
+        },
+        "bedroomNumber": 3,
+        "bathroomNumber": 2,
+        "bedsNumber": 4,
+        "checkIn": "2024-11-12",
+        "checkOut": "2024-11-20",
+        "category": "Amazing view"
+    },
+    {
+        "_id": "hotel77889",
+        "images": [
+            "https://example.com/images/hotel9_img1.jpg",
+            "https://example.com/images/hotel9_img2.jpg",
+            "https://example.com/images/hotel9_img3.jpg"
+        ],
+        "hotelName": "Historic Downtown Loft",
+        "hotelDestination": "San Francisco, CA",
+        "shortDescription": "Stay at Historic Downtown Loft to experience the iconic San Francisco lifestyle with charm and character.",
+        "pricePerGuest": {
+            "adult": 190,
+            "child": 95,
+            "infant": 35
+        },
+        "bedroomNumber": 2,
+        "bathroomNumber": 1,
+        "bedsNumber": 3,
+        "checkIn": "2024-12-01",
+        "checkOut": "Sold Out",
+        "category": "Icons"
+    }
+]
