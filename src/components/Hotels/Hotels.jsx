@@ -1,28 +1,9 @@
 import React from 'react';
 import HotelCard from '../HotelCard/HotelCard';
-import { useQuery } from '@tanstack/react-query';
-import useAxiosPublic from '../../hooks/useAxiosPublic';
+import useHotels from '../../hooks/useHotels';
 
 const Hotels = () => {
-    /* const [hotels, setHotels] = useState([]);
-    useEffect(() => {
-        fetch('hotels.json')
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                setHotels(data);
-            })
-    }, []); */
-
-    const axiosPublic = useAxiosPublic();
-
-    const { data: hotels = [] } = useQuery({
-        queryKey: ['hotels'],
-        queryFn: async () => {
-            const res = await axiosPublic.get('/hotels');
-            return res.data;
-        }
-    })
+    const [hotels] = useHotels();
 
     return (
         <div className='grid md:grid-cols-3 sm:grid-cols-1 gap-4 w-full md:w-4/5 mx-auto my-8'>
