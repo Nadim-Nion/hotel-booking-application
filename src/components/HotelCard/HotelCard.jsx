@@ -5,7 +5,7 @@ const HotelCard = ({ hotel }) => {
     return (
         <div className='flex justify-center items-center'>
             <div className="card bg-base-100 w-96 shadow-xl h-[500px] flex flex-col">
-                <figure className='h-64'>
+                <figure className='h-64 w-full'>
                     <img
                         src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                         alt="Shoes"
