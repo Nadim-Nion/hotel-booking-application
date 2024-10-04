@@ -3,9 +3,14 @@ import { BsFillSunsetFill } from 'react-icons/bs';
 import { FaStar, FaUmbrellaBeach } from 'react-icons/fa';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import useHotels from '../../hooks/useHotels';
+import HotelCard from '../HotelCard/HotelCard';
 
 const TabComponent = () => {
     const [tabIndex, setTabIndex] = useState(0);
+    const categories = ['Icons', 'Beach', 'Amazing view'];
+    const [hotels] = useHotels(categories[tabIndex]);
+
 
     return (
         <Tabs className='bg-white rounded-lg shadow-md p-4 w-full max-w-5xl mx-auto' defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
@@ -23,9 +28,21 @@ const TabComponent = () => {
                     Amazing Views
                 </Tab>
             </TabList>
-            <TabPanel></TabPanel>
-            <TabPanel></TabPanel>
-            <TabPanel></TabPanel>
+            {
+                categories.map((category, index) => <TabPanel
+                    key={index}
+                >
+                    <div className='grid md:grid-cols-3 sm:grid-cols-1 gap-4 w-full md:w-4/5 mx-auto my-8'>
+                        {
+                            hotels.map(hotel => <HotelCard
+                                key={hotel._id}
+                                hotel={hotel}
+                            ></HotelCard>)
+                        }
+                    </div>
+
+                </TabPanel>)
+            }
         </Tabs>
     );
 };
