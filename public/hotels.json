@@ -2,9 +2,9 @@
     {
         "_id": "hotel12345",
         "images": [
-            "https://example.com/images/hotel1_img1.jpg",
-            "https://example.com/images/hotel1_img2.jpg",
-            "https://example.com/images/hotel1_img3.jpg"
+            "https://i.ibb.co.com/pvPbL4v/image-1.jpg",
+            "https://i.ibb.co.com/pvPbL4v/image-1.jpg",
+            "https://i.ibb.co.com/ZVgfrzY/image-3.jpg"
         ],
         "hotelName": "Sunset Bay Resort",
         "hotelDestination": "Miami Beach, FL",
@@ -24,9 +24,9 @@
     {
         "_id": "hotel67890",
         "images": [
-            "https://example.com/images/hotel2_img1.jpg",
-            "https://example.com/images/hotel2_img2.jpg",
-            "https://example.com/images/hotel2_img3.jpg"
+            "https://live.staticflickr.com/65535/54042576658_b79870daec_o.jpg",
+            "https://i.ibb.co.com/Xsh1P9r/image-5.jpg",
+            "https://i.ibb.co.com/nMNrczW/image-6.jpg"
         ],
         "hotelName": "Mountain Escape Lodge",
         "hotelDestination": "Aspen, CO",
@@ -46,9 +46,9 @@
     {
         "_id": "hotel98765",
         "images": [
-            "https://example.com/images/hotel3_img1.jpg",
-            "https://example.com/images/hotel3_img2.jpg",
-            "https://example.com/images/hotel3_img3.jpg"
+            "https://i.ibb.co.com/L9rvfZ2/image-7.jpg",
+            "https://i.ibb.co.com/BV6XrhH/image-8.jpg",
+            "https://live.staticflickr.com/65535/54042332266_70ac4d6709_o.jpg"
         ],
         "hotelName": "Urban Retreat Hotel",
         "hotelDestination": "New York, NY",
@@ -68,9 +68,9 @@
     {
         "_id": "hotel24680",
         "images": [
-            "https://example.com/images/hotel4_img1.jpg",
-            "https://example.com/images/hotel4_img2.jpg",
-            "https://example.com/images/hotel4_img3.jpg"
+            "https://i.ibb.co.com/M8LXNZt/image-10.jpg",
+            "https://i.ibb.co.com/NnTBszx/image-11.jpg",
+            "https://i.ibb.co.com/Vg3gQBc/image-12.jpg"
         ],
         "hotelName": "Coastal Paradise Villa",
         "hotelDestination": "Malibu, CA",
@@ -90,9 +90,9 @@
     {
         "_id": "hotel13579",
         "images": [
-            "https://example.com/images/hotel5_img1.jpg",
-            "https://example.com/images/hotel5_img2.jpg",
-            "https://example.com/images/hotel5_img3.jpg"
+            "https://i.ibb.co.com/pvPbL4v/image-1.jpg",
+            "https://i.ibb.co.com/ZVgfrzY/image-3.jpg",
+            "https://i.ibb.co.com/pvPbL4v/image-1.jpg"
         ],
         "hotelName": "Lakeview Serenity Cabin",
         "hotelDestination": "Lake Tahoe, NV",
@@ -112,9 +112,9 @@
     {
         "_id": "hotel11223",
         "images": [
-            "https://example.com/images/hotel6_img1.jpg",
-            "https://example.com/images/hotel6_img2.jpg",
-            "https://example.com/images/hotel6_img3.jpg"
+            "https://i.ibb.co.com/nMNrczW/image-6.jpg",
+            "https://i.ibb.co.com/Xsh1P9r/image-5.jpg",
+            "https://live.staticflickr.com/65535/54042576658_b79870daec_o.jpg"
         ],
         "hotelName": "Downtown Iconic Suites",
         "hotelDestination": "Los Angeles, CA",
@@ -134,9 +134,9 @@
     {
         "_id": "hotel33445",
         "images": [
-            "https://example.com/images/hotel7_img1.jpg",
-            "https://example.com/images/hotel7_img2.jpg",
-            "https://example.com/images/hotel7_img3.jpg"
+            "https://live.staticflickr.com/65535/54042332266_70ac4d6709_o.jpg",
+            "https://i.ibb.co.com/BV6XrhH/image-8.jpg",
+            "https://i.ibb.co.com/L9rvfZ2/image-7.jpg"
         ],
         "hotelName": "Ocean Breeze Resort",
         "hotelDestination": "Hawaii, HI",
@@ -156,9 +156,9 @@
     {
         "_id": "hotel55667",
         "images": [
-            "https://example.com/images/hotel8_img1.jpg",
-            "https://example.com/images/hotel8_img2.jpg",
-            "https://example.com/images/hotel8_img3.jpg"
+            "https://i.ibb.co.com/Vg3gQBc/image-12.jpg",
+            "https://i.ibb.co.com/NnTBszx/image-11.jpg",
+            "https://i.ibb.co.com/M8LXNZt/image-10.jpg"
         ],
         "hotelName": "Skyline View Penthouse",
         "hotelDestination": "Chicago, IL",
@@ -178,9 +178,9 @@
     {
         "_id": "hotel77889",
         "images": [
-            "https://example.com/images/hotel9_img1.jpg",
-            "https://example.com/images/hotel9_img2.jpg",
-            "https://example.com/images/hotel9_img3.jpg"
+            "https://i.ibb.co.com/pvPbL4v/image-1.jpg",
+            "https://i.ibb.co.com/ZVgfrzY/image-3.jpg",
+            "https://i.ibb.co.com/pvPbL4v/image-1.jpg"
         ],
         "hotelName": "Historic Downtown Loft",
         "hotelDestination": "San Francisco, CA",

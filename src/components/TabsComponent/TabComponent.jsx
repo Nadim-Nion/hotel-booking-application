@@ -11,7 +11,6 @@ const TabComponent = () => {
     const categories = ['Icons', 'Beach', 'Amazing view'];
     const [hotels] = useHotels(categories[tabIndex]);
 
-
     return (
         <Tabs className='bg-white rounded-lg shadow-md p-4 w-full max-w-5xl mx-auto' defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
             <TabList className="flex justify-center w-full md:w-auto mx-auto">
