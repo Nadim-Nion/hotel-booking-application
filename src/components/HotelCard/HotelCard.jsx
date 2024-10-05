@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 const HotelCard = ({ hotel }) => {
     const { hotelName, hotelDestination, shortDescription, pricePerGuest, checkOut, images } = hotel;
     return (
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center relative z-10'>
             <div className="card bg-base-100 w-full shadow-xl h-[500px] flex flex-col">
                 <figure className='h-64 w-full relative overflow-hidden'>
                     {/* <img

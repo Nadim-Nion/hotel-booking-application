@@ -37,22 +37,24 @@ const SearchBar = () => {
             </div>
 
             {/* Check In Dates */}
-            <div className='flex-1'>
+            <div className='flex-1 relative z-20'>
                 <DatePicker
                     selected={checkInDate}
                     onChange={date => setCheckInDate(date)}
                     placeholderText='Check In'
                     className="input input-bordered w-full"
+                    popperClassName="z-50"
                 ></DatePicker>
             </div>
 
             {/* Check Out Dates */}
-            <div className='flex-1'>
+            <div className='flex-1 relative z-20'>
                 <DatePicker
                     selected={checkOutDate}
                     onChange={date => setCheckOutDate(date)}
                     placeholderText='Check Out'
                     className="input input-bordered w-full"
+                    popperClassName="z-50"
                 ></DatePicker>
             </div>
 
