@@ -59,7 +59,7 @@ const SearchBar = () => {
             </div>
 
             {/* Add Guests */}
-            <div className='relative dropdown'>
+            <div className='relative z-20 dropdown'>
                 <button className="input input-bordered w-full text-left">
                     Add Guests
                 </button>
