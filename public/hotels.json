@@ -12,14 +12,16 @@
         "guestCapacity": {
             "adult": 2,
             "child": 2,
-            "infant": 1
+            "infant": 1,
+            "pets": 2
         },
         "bedroomNumber": 3,
         "bathroomNumber": 2,
         "bedsNumber": 4,
         "checkIn": "2024-10-8",
         "checkOut": "2024-10-15",
-        "category": "Beach"
+        "category": "Beach",
+        "pricePerGuest": 175
     },
     {
         "_id": "hotel67890",
@@ -34,14 +36,16 @@
         "guestCapacity": {
             "adult": 3,
             "child": 3,
-            "infant": 1
+            "infant": 1,
+            "pets": 4
         },
         "bedroomNumber": 4,
         "bathroomNumber": 3,
         "bedsNumber": 5,
         "checkIn": "2024-12-20",
         "checkOut": "2024-12-30",
-        "category": "Amazing view"
+        "category": "Amazing view",
+        "pricePerGuest": 275
     },
     {
         "_id": "hotel98765",
@@ -56,14 +60,16 @@
         "guestCapacity": {
             "adult": 2,
             "child": 1,
-            "infant": 1
+            "infant": 1,
+            "pets": 1
         },
         "bedroomNumber": 2,
         "bathroomNumber": 1,
         "bedsNumber": 3,
         "checkIn": "2024-11-01",
         "checkOut": "Sold Out",
-        "category": "Icons"
+        "category": "Icons",
+        "pricePerGuest": 400
     },
     {
         "_id": "hotel24680",
@@ -78,14 +84,16 @@
         "guestCapacity": {
             "adult": 4,
             "child": 2,
-            "infant": 1
+            "infant": 1,
+            "pets": 2
         },
         "bedroomNumber": 3,
         "bathroomNumber": 2,
         "bedsNumber": 4,
         "checkIn": "2024-09-15",
         "checkOut": "2024-09-22",
-        "category": "Beach"
+        "category": "Beach",
+        "pricePerGuest": 345
     },
     {
         "_id": "hotel13579",
@@ -100,14 +108,16 @@
         "guestCapacity": {
             "adult": 3,
             "child": 2,
-            "infant": 1
+            "infant": 1,
+            "pets": 2
         },
         "bedroomNumber": 3,
         "bathroomNumber": 2,
         "bedsNumber": 4,
         "checkIn": "2024-10-10",
         "checkOut": "2024-10-18",
-        "category": "Amazing view"
+        "category": "Amazing view",
+        "pricePerGuest": 500
     },
     {
         "_id": "hotel11223",
@@ -122,14 +132,16 @@
         "guestCapacity": {
             "adult": 2,
             "child": 1,
-            "infant": 1
+            "infant": 1,
+            "pets": 1
         },
         "bedroomNumber": 2,
         "bathroomNumber": 1,
         "bedsNumber": 3,
         "checkIn": "2024-11-05",
         "checkOut": "Sold Out",
-        "category": "Icons"
+        "category": "Icons",
+        "pricePerGuest": 600
     },
     {
         "_id": "hotel33445",
@@ -144,14 +156,16 @@
         "guestCapacity": {
             "adult": 4,
             "child": 3,
-            "infant": 2
+            "infant": 2,
+            "pets": 1
         },
         "bedroomNumber": 4,
         "bathroomNumber": 3,
         "bedsNumber": 5,
         "checkIn": "2024-10-20",
         "checkOut": "2024-11-02",
-        "category": "Beach"
+        "category": "Beach",
+        "pricePerGuest": 400
     },
     {
         "_id": "hotel55667",
@@ -166,14 +180,16 @@
         "guestCapacity": {
             "adult": 3,
             "child": 2,
-            "infant": 1
+            "infant": 1,
+            "pets": 1
         },
         "bedroomNumber": 3,
         "bathroomNumber": 2,
         "bedsNumber": 4,
         "checkIn": "2024-11-12",
         "checkOut": "2024-11-20",
-        "category": "Amazing view"
+        "category": "Amazing view",
+        "pricePerGuest": 300
     },
     {
         "_id": "hotel77889",
@@ -188,13 +204,15 @@
         "guestCapacity": {
             "adult": 2,
             "child": 1,
-            "infant": 1
+            "infant": 1,
+            "pets": 2
         },
         "bedroomNumber": 2,
         "bathroomNumber": 1,
         "bedsNumber": 3,
         "checkIn": "2024-12-01",
         "checkOut": "Sold Out",
-        "category": "Icons"
+        "category": "Icons",
+        "pricePerGuest": 290
     }
 ]

@@ -51,8 +51,8 @@ const HotelCard = ({ hotel }) => {
                         checkOut === 'Sold Out' ? <p className='font-bold'>Sold Out</p>
                             :
                             <p>
-                                <span className='font-bold mr-2'>${pricePerGuest.adult}</span>
-                                per adult
+                                <span className='font-bold mr-2'>${pricePerGuest}</span>
+                                Per Guest
                             </p>
                     }
                 </div>
