@@ -3,7 +3,7 @@ import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import { FaMinus, FaPlus, FaSearch } from 'react-icons/fa';
 
-const SearchBar = () => {
+const SearchBar = ({ onSearch }) => {
     const [destination, setDestination] = useState('');
     const [checkInDate, setCheckInDate] = useState(null);
     const [checkOutDate, setCheckOutDate] = useState(null);
@@ -21,6 +21,10 @@ const SearchBar = () => {
                 [type]: Math.max(0, prevGuest[type] + value)
             }
         ));
+    };
+
+    const handleSearch = () => {
+        onSearch({ destination, checkInDate, checkOutDate, guests });
     };
 
     return (
@@ -157,7 +161,7 @@ const SearchBar = () => {
             </div>
 
             {/* Search Button */}
-            <button className='btn bg-rose-500 w-full md:w-auto flex items-center gap-2'>
+            <button onClick={handleSearch} className='btn bg-rose-500 w-full md:w-auto flex items-center gap-2'>
                 <FaSearch />
                 <span>Search</span>
             </button>

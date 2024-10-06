@@ -6,10 +6,10 @@ import 'react-tabs/style/react-tabs.css';
 import useHotels from '../../hooks/useHotels';
 import HotelCard from '../HotelCard/HotelCard';
 
-const TabComponent = () => {
+const TabComponent = ({ searchParams }) => {
     const [tabIndex, setTabIndex] = useState(0);
     const categories = ['Icons', 'Beach', 'Amazing view'];
-    const [hotels] = useHotels(categories[tabIndex]);
+    const [hotels] = useHotels(categories[tabIndex], searchParams);
 
     return (
         <Tabs className='bg-white rounded-lg shadow-md p-4 w-full max-w-5xl mx-auto' defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
