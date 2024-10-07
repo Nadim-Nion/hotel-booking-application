@@ -76,7 +76,7 @@ airbnb-frontend/
 └── README.md           # Documentation (You're here!)
 ```
 
----## Installation
+## Installation
 
 1. Clone the repository:
 
@@ -119,11 +119,15 @@ By following these guidelines and potentially adopting a more detailed conventio
 
 Feel free to contribute to this project! If you have any suggestions or improvements, please fork the repository, make your changes, and submit a pull request.
 
----## License
+---
+
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
----## Available Scripts
+---
+
+## Available Scripts
 
 - **`npm run dev`**: Start the application in development mode.
 - **`npm run build`**: Build the application for production.
