@@ -18,7 +18,6 @@ const Home = () => {
 
     const handleSearch = (params) => {
         setSearchParams(params);
-        console.log(params);
     };
 
     return (

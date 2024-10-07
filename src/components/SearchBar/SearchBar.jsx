@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import { FaMinus, FaPlus, FaSearch } from 'react-icons/fa';
+import moment from 'moment';
 
 const SearchBar = ({ onSearch }) => {
     const [destination, setDestination] = useState('');
@@ -24,7 +25,10 @@ const SearchBar = ({ onSearch }) => {
     };
 
     const handleSearch = () => {
-        onSearch({ destination, checkInDate, checkOutDate, guests });
+        const formattedCheckInDate = checkInDate ? moment(checkInDate).format('YYYY-MM-DD') : null;
+        const formattedCheckOutDate = checkOutDate ? moment(checkOutDate).format('YYYY-MM-DD') : null;
+
+        onSearch({ destination, checkInDate: formattedCheckInDate, checkOutDate: formattedCheckOutDate, guests });
     };
 
     return (
